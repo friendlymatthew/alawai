@@ -21,7 +21,7 @@ export default function Book() {
 					alert(JSON.stringify(values, null, 2));
 				}}
 			>
-				<Form className="space-y-12 font-sans font-thin text-2xl">
+				<Form className="space-y-6 font-sans font-thin text-2xl">
 					<div className="">
 						<label className="pr-4">Full Name</label>
 						<Field
@@ -55,10 +55,10 @@ export default function Book() {
 						/>
 					</div>
 					<button
-						className="block border-2 hover:bg-slate-800 hover:text-white transition ease-in duration-200 border-slate-800 px-12 py-2 rounded-lg "
+						className="text-start block border text-lg hover:bg-slate-800 hover:text-white transition ease-in duration-200 border-slate-800 px-12 py-1.5 rounded-lg "
 						type="submit"
 					>
-						Submit
+						Book
 					</button>
 				</Form>
 			</Formik>

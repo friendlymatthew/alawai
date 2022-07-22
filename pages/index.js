@@ -130,7 +130,7 @@ export default function Home() {
 
 			<div
 				id="book"
-				className="py-20 pb-40 px-12 lg:px-48 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0"
+				className="py-20 pb-40 px-20 lg:px-48 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0"
 			>
 				<Book />
 				<Contact />
